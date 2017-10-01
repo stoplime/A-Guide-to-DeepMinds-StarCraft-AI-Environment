@@ -287,6 +287,7 @@ def learn(env,
       rew = 0
 
       path_memory_ = np.array(path_memory, copy=True)
+      ###### Set  of Actions ~ only the basic 4 #######
       if(action == 0): #UP
 
         if(player[1] >= 16):
